@@ -1,0 +1,142 @@
+:root{
+    --naranja: #FCA61F;
+    --azul: #07003B;
+    --plomo: #9098B1;
+    --verde: #50CB93;
+    --font: #2E323B;
+    --blanco:#F5F5F7;
+}
+
+body{
+    background-color: var(--blanco);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li,ol,ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;   
+}
+.header-logo img{
+    width:45px;
+    margin-right: 26px;
+}
+.header-logo h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--azul);
+}
+.header-logo strong{
+    color: var(--naranja);
+    font-weight: 400;
+}
+
+.header-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.header-menu li{
+    margin-right: 52px;
+}
+.header-menu li:last-child{
+    margin-right:0px;
+}
+.header-menu a{
+    color: var(--azul);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.header-btn a{
+    padding: 10px 27px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight:700;
+}
+
+/* -- ----Fin Header---- -- */
+
+    /* -- Main -- */
+
+main{
+    height: 705px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-description{
+    margin-right: 197px;
+}
+.main-description h1{
+    font-size: 72px;
+    font-weight:700;
+    margin: 0;
+    color:var(--azul);
+}
+.main-description strong{
+    font-size: 72px;
+    font-weight:700;
+    margin: 0;
+    color:var(--naranja );
+}
+
+.main-description p{
+    font-size: 18px;
+    font-weight:400;
+    margin: 40px 0px 54px;
+    color:var(--font );
+}
+.main-description-btn{
+    display: flex;
+    align-items: center;
+}
+.main-description-btn a:first-child{
+    padding: 15px 27px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight:700;
+    margin-right: 41px;
+}
+.main-description-btn1{
+    display: flex;
+    align-items: center;
+}
+.main-description-btn1 i{
+    font-size: 50px;
+    color: var(--naranja);
+    margin-right: 22px;
+}
+.main-description-btn1 i{
+    font-size: 50px;
+    color: var(--naranja);
+    margin-right: 22px;
+}
+.main-description-btn1 span{
+    font-size: 17px;
+    color: var(--font);
+    font-weight: 400;
+}
+
+.main-hero img{
+    width: 415px;
+}
